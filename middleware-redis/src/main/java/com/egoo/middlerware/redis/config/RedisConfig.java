@@ -20,7 +20,10 @@ public class RedisConfig {
 
     private final static String DEFAULT_REDIS_PROPERTIES_FILEPATH = RedisConfig.class.getClassLoader().getResource("/").getPath() + "/redis.properties";
 
-    /*@Bean(name="redisProperties")*/
+    /**
+     * Redis Properties Config
+     * @return
+     */
     public Properties propertiesConfig() {
         Properties prop = new Properties();
         File file = new File(DEFAULT_REDIS_PROPERTIES_FILEPATH);
