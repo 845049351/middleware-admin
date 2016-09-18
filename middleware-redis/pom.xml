@@ -21,7 +21,7 @@
         <druid.version>1.0.14</druid.version>
         <jackson.version>2.3.3</jackson.version>
         <guava.version>16.0.1</guava.version>
-        <junit.version>4.8</junit.version>
+        <junit.version>4.10</junit.version>
         <jedis.version>2.6.1</jedis.version>
         <spring.data.redis.version>1.4.1.RELEASE</spring.data.redis.version>
     </properties>
